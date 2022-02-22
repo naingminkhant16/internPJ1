@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* height: 2000px; */
+}
+
+.nav-link.active {
+    color: #1ECBE1 !important;
+}
+
+.container {
+    max-width: 1200px !important;
+}
+
+.site-color {
+    color: #1ECBE1;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.small-title {
+    color: #777;
+    font-size: 12px;
+}
+
+/* nav  */
+.top-nav {
+    font-size: 12px;
+    padding: 0px 15px !important;
+    color: grey !important;
+    border-right: 0.7px solid #eee;
+    margin: 5px 0;
+}
+
+.top-contact {
+    font-size: 12px;
+    padding: 0px 15px !important;
+    margin: 5px 0;
+    color: grey;
+    float: left !important;
+}
+
+/* carousel  */
+.carousel-item {
+    height: 500px;
+    background-color: rgb(119, 119, 119);
+    color: white;
+    position: relative;
+}
+
+.car-item-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.carousel .carousel-indicators li {
+    background-color: white;
+}
+
+.carousel .carousel-indicators li.active {
+    background-color: #1ECBE1;
+}
+
+/* about us  */
+.aboutUs {
+    -webkit-transform: skew(-3deg);
+    -moz-transform: skew(-3deg);
+    -o-transform: skew(-3deg);
+    width: 500px;
+}
+
+.aboutUs img {
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* services  */
+.services {
+    background-color: #e3e1ff;
+    padding: 80px 0;
+    font-size: 12px;
+}
+
+.services i {
+    color: #1ECBE1;
+    font-size: 20px;
+}
