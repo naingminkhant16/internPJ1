@@ -1,0 +1,41 @@
+.footer {
+    background-color: #2e3344;
+    color: white;
+    padding: 80px 0 0 0;
+}
+
+.footer p {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.foot {
+    padding: 15px;
+    border-top: 0.5px #4d5368 solid;
+}
+
+.social i {
+    font-size: 11px;
+    padding: 10px;
+    color: lightgray;
+    background-color: #60667a7c;
+    border: 1px solid #60667a7c;
+    border-radius: 50%;
+}
+
+.upArrow {
+    padding: 10px;
+    border: 1px solid #a4a5a8ad;
+    background-color: #a4a5a8ad;
+    color: rgb(75, 73, 73);
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.upArrow:hover {
+    color: black;
+}

@@ -1,0 +1,20 @@
+/* nav  */
+.nav-link.active {
+    color: #1ECBE1 !important;
+}
+
+.top-nav {
+    font-size: 12px;
+    padding: 0px 15px !important;
+    color: grey !important;
+    border-right: 0.7px solid #eee;
+    margin: 5px 0;
+}
+
+.top-contact {
+    font-size: 12px;
+    padding: 0px 15px !important;
+    margin: 5px 0;
+    color: grey;
+    float: left !important;
+}

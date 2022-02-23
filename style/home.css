@@ -6,11 +6,7 @@
 }
 
 body {
-    /* height: 2000px; */
-}
-
-.nav-link.active {
-    color: #1ECBE1 !important;
+    overflow-x: hidden;
 }
 
 .container {
@@ -31,21 +27,8 @@ body {
     font-size: 12px;
 }
 
-/* nav  */
-.top-nav {
-    font-size: 12px;
-    padding: 0px 15px !important;
-    color: grey !important;
-    border-right: 0.7px solid #eee;
-    margin: 5px 0;
-}
-
-.top-contact {
-    font-size: 12px;
-    padding: 0px 15px !important;
-    margin: 5px 0;
-    color: grey;
-    float: left !important;
+.add-shadow {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 5px 5px 0px
 }
 
 /* carousel  */
@@ -101,7 +84,7 @@ body {
 
 /* services  */
 .services {
-    background-color: #e3e1ff;
+    background-color: #f1fcfd;
     padding: 80px 0;
     font-size: 12px;
 }
@@ -109,4 +92,33 @@ body {
 .services i {
     color: #1ECBE1;
     font-size: 20px;
+}
+
+/* projects  */
+.project {
+    padding: 80px 0;
+}
+
+.project img {
+    transition: ease-in-out 0.7s;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+/* clients */
+.clients {
+    background-color: #f1fcfd;
+    padding: 60px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .clients {
+        padding: 40px 0;
+    }
+
+    .clients img {
+        width: 50px;
+    }
 }
