@@ -1,3 +1,15 @@
+/* reveal elements  */
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+/* footer  */
 .footer {
     background-color: #2e3344;
     color: white;

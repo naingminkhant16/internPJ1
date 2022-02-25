@@ -33,7 +33,7 @@ body {
 
 /* carousel  */
 .carousel-item {
-    height: 500px;
+    height: 72vh;
     background-color: rgb(119, 119, 119);
     color: white;
     position: relative;
@@ -114,6 +114,19 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .carousel-item {
+        height: 60vh;
+        font-size: 12px;
+    }
+
+    .carousel-item h1 {
+        font-size: 24px !important;
+    }
+
+    .carousel-item p {
+        font-size: 12px !important;
+    }
+
     .clients {
         padding: 40px 0;
     }

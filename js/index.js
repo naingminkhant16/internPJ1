@@ -1,4 +1,5 @@
 const scrollBtn = document.querySelector("#upArrow");
+var reveals = document.querySelectorAll(".reveal");
 // navbar and scrollTop 
 document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener('scroll', function () {
@@ -17,6 +18,20 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById('navbar_top').classList.remove("add-shadow");
         }
         scrollTopbtn();
+        // reveal elements 
+        for (let i = 0; i < reveals.length; i++) {
+            
+            var windowHeight = window.innerHeight;
+            var revealTop = reveals[i].getBoundingClientRect().top;
+            var revealPoint = 150;
+            
+            if (revealTop < windowHeight - revealPoint) {
+                reveals[i].classList.add('active');
+            } else {
+                reveals[i].classList.remove('active');
+            }
+        }
+
     });
 });
 scrollBtn.addEventListener("click", () => {
@@ -32,3 +47,4 @@ function scrollTopbtn() {
         scrollBtn.style.display = 'block';
     }
 }
+// reveal elements 
