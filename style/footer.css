@@ -16,9 +16,10 @@
     padding: 80px 0 0 0;
 }
 
-.footer p {
+.footer p ,a{
     font-size: 12px;
     color: lightgray;
+    text-decoration: none;
 }
 
 .foot {
@@ -27,14 +28,16 @@
 }
 
 .social i {
-    font-size: 11px;
+    font-size: 10px;
     padding: 10px;
     color: lightgray;
     background-color: #60667a7c;
     border: 1px solid #60667a7c;
     border-radius: 50%;
 }
-
+.social i:hover{
+    color: #1ECBE1;
+}
 .upArrow {
     padding: 10px;
     border: 1px solid #a4a5a8ad;

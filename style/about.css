@@ -25,3 +25,9 @@
 .banner a:hover {
     color: #1ecbe1;
 }
+
+@media only screen and (max-width: 345px) {
+    .banner a{
+        font-size: 14px;
+    }
+}

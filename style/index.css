@@ -135,3 +135,11 @@ body {
         width: 50px;
     }
 }
+@media only screen and (max-width: 450px) {
+    .title{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
